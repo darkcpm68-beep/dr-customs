@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DR CUSTOMS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101010;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 30px 15px;
+      background: #1c1c1c;
+      border-bottom: 2px solid #00e676;
+    }
+
+    h1 {
+      color: #00e676;
+      font-size: 38px;
+      margin: 0;
+    }
+
+    .contenido {
+      padding: 45px 20px;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: 30px auto;
+    }
+
+    .carro {
+      background: #222;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #444;
+    }
+
+    .boton {
+      display: inline-block;
+      background: #00e676;
+      color: black;
+      padding: 12px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      padding: 20px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DR CUSTOMS</h1>
+    <p>Diseños exclusivos de Car Parking Multiplayer</p>
+  </header>
+
+  <main class="contenido">
+    <h2>Bienvenido a DR CUSTOMS</h2>
+    <p>Explora nuestros diseños y encuentra tu próximo carro.</p>
+
+    <div class="galeria">
+      <div class="carro">
+        <h3>Diseños disponibles</h3>
+        <p>Próximamente encontrarás aquí nuestros carros personalizados.</p>
+      </div>
+    </div>
+
+    <a class="boton" href="mailto:darkcpm68@gmail.com">
+      Contactar
+    </a>
+  </main>
+
+  <footer>
+    © 2026 DR CUSTOMS
+  </footer>
+
+</body>
+</html>
